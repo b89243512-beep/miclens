@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How MicLens handles your data. We process images locally in your browser and store nothing.",
+  description: "How Mic Lens handles your data. We process images locally in your browser and store nothing.",
   alternates: { canonical: "https://miclens.com/privacy" },
 };
 
@@ -18,7 +18,7 @@ export default function Privacy() {
 
         <h2 className="text-xl font-bold mt-8 mb-3">In short</h2>
         <p className="text-[var(--muted)] mb-4">
-          MicLens does not collect, store, or transmit the images you scan. All optical character recognition happens
+          Mic Lens does not collect, store, or transmit the images you scan. All optical character recognition happens
           on your device, inside your browser tab. Your file never leaves your computer.
         </p>
 

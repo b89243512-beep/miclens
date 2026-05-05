@@ -4,8 +4,8 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "MicLens — Document Scanner with OCR",
-    short_name: "MicLens",
+    name: "Mic Lens — Document Scanner with OCR",
+    short_name: "Mic Lens",
     description: "Free online document scanner. Extract text from images and convert photos to PDF in your browser.",
     start_url: "/",
     display: "standalone",

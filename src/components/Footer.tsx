@@ -1,11 +1,15 @@
 import Link from "next/link";
+import { Logo } from "./Logo";
 
 export function Footer() {
   return (
     <footer className="border-t border-[var(--border)] bg-[var(--bg-2)] mt-20">
       <div className="max-w-6xl mx-auto px-4 py-10 grid gap-8 md:grid-cols-4">
         <div>
-          <div className="font-bold text-lg mb-2">MicLens</div>
+          <div className="flex items-center gap-2 font-bold text-base md:text-lg mb-2">
+            <Logo size={28} />
+            <span>Lens - PDF Scanner &amp; Editor</span>
+          </div>
           <p className="text-sm text-[var(--muted)] max-w-xs">
             Free online document scanner with OCR. Runs entirely in your browser — no upload, no signup.
           </p>
@@ -30,13 +34,13 @@ export function Footer() {
         <div>
           <h4 className="text-xs font-semibold uppercase tracking-wider text-[var(--muted)] mb-3">About</h4>
           <p className="text-sm text-[var(--muted)]">
-            MicLens is an independent document scanning tool. We are not affiliated with Microsoft.
+            Mic Lens is an independent document scanning tool. We are not affiliated with Microsoft.
           </p>
         </div>
       </div>
       <div className="border-t border-[var(--border)]">
         <p className="max-w-6xl mx-auto px-4 py-5 text-xs text-[var(--muted)] text-center">
-          &copy; {new Date().getFullYear()} MicLens. All rights reserved.
+          &copy; {new Date().getFullYear()} Mic Lens. All rights reserved.
         </p>
       </div>
     </footer>
